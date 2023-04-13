@@ -10,4 +10,11 @@ public class funClass {
     public String pozdrav() {
         return "Ahoj, jak se máš?!";
     }
+
+    @GetMapping("/druhyPozdrav")
+    public String pozdrav2() {
+        return "Ahoj, jak se máš?! Pořád dobře??";
+    }
+
+
 }
